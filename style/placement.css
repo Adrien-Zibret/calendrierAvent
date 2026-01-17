@@ -1,0 +1,98 @@
+/*Positionnement des 23 boules et de l'étoile*/
+.divEtoile{
+    position: absolute;
+    top: 4%;
+    left: 45.5%;
+}
+#divBoule1{
+    top: 15%;
+    left: 47.5%;
+}
+#divBoule2{
+    top: 20%;
+    left: 50%;
+}
+#divBoule3{
+    top: 22%;
+    left: 45%;
+}
+#divBoule4{
+    top: 26%;
+    left: 42%;
+}
+#divBoule5{
+    top: 27%;
+    left: 55%;
+}
+#divBoule6{
+    top: 28%;
+    left: 50%;
+}
+#divBoule7{
+    top: 32%;
+    left: 56.5%;
+}
+#divBoule8{
+    top: 32%;
+    left: 39.5%;
+}
+#divBoule9{
+    top: 33%;
+    left: 47%;
+}
+#divBoule10{
+    top: 41%;
+    left: 37%;
+}
+#divBoule11{
+    top: 38%;
+    left: 45%;
+}
+#divBoule12{
+    top: 37%;
+    left: 55%;
+}
+#divBoule13{
+    top: 43%;
+    left: 50%;
+}
+#divBoule14{
+    top: 48%;
+    left: 35%;
+}
+#divBoule15{
+    top: 48%;
+    left: 42%;
+}
+#divBoule16{
+    top: 51%;
+    left: 61%;
+}
+#divBoule17{
+    top: 48%;
+    left: 55%;
+}
+#divBoule18{
+    top: 60%;
+    left: 36%;
+}
+#divBoule19{
+    top: 60%;
+    left: 43%;
+}
+#divBoule20{
+    top: 57%;
+    left: 50%;
+}
+#divBoule21{
+    top: 60%;
+    left: 62.5%;
+}
+#divBoule22{
+    top: 68%;
+    left: 63.5%;
+}
+#divBoule23{
+    top: 68%;
+    left: 40%;
+}

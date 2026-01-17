@@ -1,0 +1,100 @@
+body {
+    background-image: url('../assets/testBG.jpg');
+    background-size: cover;
+}
+
+#page {
+    position: relative;
+}
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+#sapin {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.divEtoile {
+    width: 7%;
+    position: absolute;
+}
+
+.divBoule {
+    display: flex;
+    justify-content: center;
+    width: 3.5%;
+    position: absolute;
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 2px white) drop-shadow(-2px -2px 2px white) drop-shadow(-2px 2px 2px white) drop-shadow(2px -2px 2px white);
+}
+
+.terne {
+    filter: none !important;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.zindex3 {
+    z-index: 3;
+}
+
+.imgH {
+    width: 200%;
+}
+
+.bgAnecdote {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+
+.imgAnecdote {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+}
+
+.bgMessage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+
+.numero {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+    font-size: 0.7rem;
+    pointer-events: none;
+}
+
+.scale2 {
+    scale: 2;
+}
+
+.off {
+    display: none;
+}

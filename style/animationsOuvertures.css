@@ -1,0 +1,196 @@
+/*Animations d'ouverture des boules*/
+/*Ouverture par le bas, le haute reste collé comme une pince de machine à peluche*/
+@keyframes pincePelucheDroite {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(50%, -50%) rotate(-45deg);
+    }
+}
+
+.pincePelucheDroite {
+    animation: pincePelucheDroite 2s;
+}
+
+@keyframes pincePelucheGauche {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
+
+.pincePelucheGauche {
+    animation: pincePelucheGauche 2s;
+}
+
+/*l'inverse de la pince peluche*/
+@keyframes pinceReverseDroite {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(50%) rotate(45deg);
+    }
+}
+
+.pinceReverseDroite {
+    animation: pinceReverseDroite 2s;
+}
+
+@keyframes pinceReverseGauche {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-50%) rotate(-45deg);
+    }
+}
+
+.pinceReverseGauche {
+    animation: pinceReverseGauche 2s;
+}
+
+/*Ouverture par écartement sur les côtés*/
+@keyframes ouvertureDroite {
+    from {
+        transform: translate(0);
+    }
+
+    5% {
+        transform: translate(5%);
+    }
+
+    10% {
+        transform: translate(0);
+    }
+
+    15% {
+        transform: translate(5%);
+    }
+
+    20% {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(100%);
+    }
+}
+
+.ouvertureDroite {
+    animation: ouvertureDroite 2s;
+}
+
+@keyframes ouvertureGauche {
+    from {
+        transform: translate(0);
+    }
+
+    5% {
+        transform: translate(-5%);
+    }
+
+    10% {
+        transform: translate(0);
+    }
+
+    15% {
+        transform: translate(-5%);
+    }
+
+    20% {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
+
+.ouvertureGauche {
+    animation: ouvertureGauche 2s;
+}
+
+/*Ouverture par le dessus style pokeball*/
+@keyframes ouverturePokeBallH {
+    from{
+        transform: translateY(-50%) scale(2);
+    }
+    20%{
+        transform: translateY(-50%) scale(2) rotate(5deg) translate(10%);
+    }
+    50%{
+        transform: translateY(-50%) scale(2) rotate(-5deg) translate(-10%);
+    }
+    66% {
+        transform: rotate(0) translate(0) translateY(-50%) scale(2);
+    }
+
+    to {
+        transform: rotate(80deg) translate(20%, -100%) translateY(-50%) scale(2);
+    }
+}
+
+.ouverturePokeBallH {
+    animation: ouverturePokeBallH 2s;
+}
+@keyframes ouverturePokeBallB {
+    from {
+        transform: rotate(0) translate(0) translateY(50%) scale(2);
+    }
+    20%{
+        transform: rotate(5deg) translate(10%) translateY(50%) scale(2);
+    }
+    50%{
+        transform: rotate(-5deg) translate(-10%) translateY(50%) scale(2);
+    }
+    70%{
+        transform: rotate(5deg) translate(10%) translateY(50%) scale(2);
+    }
+    85%{
+        transform: rotate(-5deg) translate(-10%) translateY(50%) scale(2);
+    }
+    to {
+        transform: rotate(0) translate(0) translateY(50%) scale(2);
+    }
+}
+
+.ouverturePokeBallB {
+    animation: ouverturePokeBallB 2s;
+}
+
+/*Ouverture verticale double*/
+@keyframes boubleVH {
+    from {
+        transform: translateY(-50%) scale(2);
+    }
+
+    to {
+        transform: translateY(-200%) scale(2);
+    }
+}
+
+.boubleVH {
+    animation: boubleVH 2s;
+}
+
+@keyframes boubleVB {
+    from {
+        transform: translateY(50%) scale(2);
+    }
+
+    to {
+        transform: translateY(200%) scale(2);
+    }
+}
+
+.boubleVB {
+    animation: boubleVB 2s;
+}

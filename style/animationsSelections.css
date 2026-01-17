@@ -1,0 +1,86 @@
+/*Animations à la selection*/
+/*tourne et grandit*/
+@keyframes spinNGrow {
+    from {
+        transform: rotate(0) scale(1);
+    }
+
+    to {
+        transform: rotate(720deg) scale(2);
+    }
+}
+
+.spinNGrow {
+    animation: spinNGrow 2s forwards;
+}
+
+/*se balance et grandit*/
+@keyframes balanceNGrow {
+    from {
+        transform: rotate(0) scale(1);
+    }
+
+    10% {
+        transform: rotate(-10deg) scale(1.1);
+    }
+
+    20% {
+        transform: rotate(10deg) scale(1.2);
+    }
+
+    30% {
+        transform: rotate(-10deg) scale(1.3);
+    }
+
+    40% {
+        transform: rotate(10deg) scale(1.4);
+    }
+
+    50% {
+        transform: rotate(-10deg) scale(1.5);
+    }
+
+    60% {
+        transform: rotate(10deg) scale(1.6);
+    }
+
+    70% {
+        transform: rotate(-10deg) scale(1.7);
+    }
+
+    80% {
+        transform: rotate(10deg) scale(1.8);
+    }
+
+    90% {
+        transform: rotate(-10deg) scale(1.9);
+    }
+
+    to {
+        transform: rotate(0) scale(2);
+    }
+}
+
+.balanceNGrow {
+    animation: balanceNGrow 2s forwards;
+}
+
+/*grand balancement*/
+@keyframes bigBalance {
+    from {
+        transform: rotate(0) translate(0) scale(1);
+    }
+    33% {
+        transform: rotate(45deg) translate(-70%, -25%) scale(1.3);
+    }
+    66% {
+        transform: rotate(-45deg) translate(140%, 0%) scale(1.7);
+    }
+    to {
+        transform: rotate(0) translate(0) scale(2);
+    }
+}
+
+.bigBalance {
+    animation: bigBalance 2s forwards;
+}
